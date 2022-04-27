@@ -30,7 +30,7 @@ Xpath_new_message = '//textarea[@class="chatmsg"]'
 Xpath_sent_btn = '//button[@class="sendbtn"]'
 tags_class_name = '//input[@class="newtopicinput" and @type="text"]'
 
-msg = "f 23, 5 min free sample service de rehi hu phone call and whatsapp pe...\n 8837335398 \n waiting..!\n sample ke bad agar pasand aya to paid service"
+msg = "CUSTOM message"
 driver.get("https://www.omegle.com/")
 tags_object = driver.find_elements_by_xpath(tags_class_name)
 tags_object[0].send_keys("indian\nindia\ndesi\ndelhi\n")
